@@ -1,0 +1,462 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Lato;
+  color: #424242;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 67px;
+  box-shadow: 2px 1px 2px #eee;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  
+}
+
+.logo{
+  height: 17.5px;
+  display: inline-block;
+  margin-right: 240px;
+}
+
+.header_links{
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  font-family: Poppins;
+  font-size: 14px;
+  padding: 20px;
+  transition: color .4s;
+  margin-right: 8px;
+}
+
+.header_links:hover{
+  color: #387ED1;
+}
+
+.fa-solid{
+  position: relative;
+  top: 1.75px;
+  margin-left: 10px; 
+  font-size: large;
+  cursor: pointer;
+}
+
+main{
+  margin: 0 136px;
+}
+
+
+.img_div{
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_img{
+  height: 300px;
+}
+
+h1{
+  text-align: center;
+  font-size: 44px;
+}
+.first_para{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.btn_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.btn_div button{
+  color: white;
+  background-color: #387ED1;
+  height: 40px;
+  width: 178px;
+  font-size: 20px;
+  border: 0px solid;
+  border-radius: 3px;
+  padding-top: 0px;
+}
+
+.btn_div button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: #201e1e;
+}
+
+.details{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.details h2{
+  font-size: 32px;
+  word-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.details h4{
+  font-size: 20px;
+}
+.details p{
+  font-size: 17px;
+  line-height: 1.8;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.details_2{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.details_2 img{
+  display: inline-block;
+  height: 390px;
+  width: 350px;
+  scale: 2.1;
+  padding-top: 100px;
+  padding-right: 80px;
+}
+
+.details_1_links{
+  text-decoration: none;
+  color: #387ED1;
+}
+
+.details_1_links:hover{
+  color: initial;
+}
+
+.details_2_links{
+  text-decoration: none;
+  color: #387ED1;
+}
+
+.details_2_links:hover{
+  color: initial;
+}
+
+.details_2_link_1{
+  position: absolute;
+  bottom: 60px;
+  right: 160px;
+}
+
+.details_2_link_2{
+  position: absolute;
+  bottom: 60px;
+  right: 10px;
+}
+
+.companies:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+.features{
+  display: flex;
+  margin-top: 100px;
+}
+
+.features_1 h2{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.features_1 p{
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.features_1 a{
+  text-decoration: none;
+  color: #387ED1;
+}
+
+.features_1 a:hover{
+  color: initial;
+}
+
+.features_2{
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  position: relative;
+  width: auto;
+}
+
+.features_2 img{
+  height: 88px;
+  width: 120px;
+  
+}
+.features_2 p{
+  font-size: 10px;
+  color: #666;
+  position: absolute;
+  line-height: 15px;
+}
+
+.p1{
+  left: 158px;
+  top: 75px;
+}
+
+.p2{
+  top: 75px;
+  left: 338px;
+}
+
+.p3{
+  top: 75px;
+  left: 594px;
+}
+
+.img2{
+  margin-left:60px
+}
+
+.img3{
+  margin-left: 120px;
+}
+
+.features_3{
+  margin-top: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features_3 img{
+  width: 432.658;
+  height: 317.455;
+}
+
+.features_3 h4{
+  font-size: 24px;
+  padding-top: 20px;
+  margin-bottom: 25px;
+}
+.features_3 p{
+  line-height: 28px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.features_3 a{
+  text-decoration: none;
+  color: #387ED1;
+}
+
+.features_3 a:hover{
+  color: initial;
+}
+
+.features_3_2{
+  padding-left: 100px;
+}
+
+.account{
+  margin-bottom: 50px;
+}
+
+.account h2{
+  margin-top: 100px;
+  font-weight: 600;
+  font-size: 32px;
+  color: #424242;
+  text-align: center;
+}
+
+.account p{
+  color: #666;
+  text-align: center;
+  margin: 35px 0;
+}
+
+.account_btn_div{
+  display: flex;
+  justify-content: center;
+}
+
+.account button{
+  color: white;
+  background-color: #387ED1;
+  height: 40px;
+  width: 178px;
+  font-size: 20px;
+  border: 0px solid;
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+
+.account button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: #201e1e;
+}
+
+.footer_hr{
+  border: none;
+  height: .9px;
+  background-color: #eee;
+}
+
+footer{
+  padding: 0 136px;
+  padding-top: 40px;
+  background-color: #fbfbfb;
+}
+
+.footer_div{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer_logo{
+  height: 17.4px;
+  margin-bottom: 20px;
+}
+
+footer p{
+  font-size: 12.8px;
+  color: #424242;
+  line-height: 2;
+}
+
+.fa-brands{
+  margin: 10px 10px 10px 0;
+}
+
+.fa-square-x-twitter{
+  font-size: 22px;
+  transition: all .2s;
+  margin-right: 10px;
+}
+
+.fa-square-x-twitter:hover{
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.fa-facebook{
+  font-size: 22px;
+  transition: all .2s;
+  margin-right: 10px;
+}
+
+.fa-facebook:hover{
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.fa-square-instagram{
+  font-size: 22px;
+  transition: all .2s;
+  margin-right: 10px;
+}
+
+.fa-square-instagram:hover{
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.fa-linkedin{
+  font-size: 22px;
+  transition: all .2s;
+  margin-right: 10px;
+}
+
+.fa-linkedin:hover{
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.links_hr{
+  border: none;
+  height: 1px;
+  background-color: #dad6d6;
+}
+
+.fa-youtube{
+  font-size: 22px;
+  transition: all .2s;
+  margin-right: 10px;
+}
+
+.fa-youtube:hover{
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.fa-square-whatsapp{
+  font-size: 22px;
+  transition: all .2s;
+  margin-right: 10px;
+}
+
+.fa-square-whatsapp:hover{
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.fa-telegram{
+  font-size: 22px;
+  transition: all .2s;
+  margin-right: 10px;
+}
+
+.fa-telegram:hover{
+  cursor: pointer;
+  scale: 1.2;
+}
+
+footer h3{
+  margin-bottom: 20px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #666;
+}
+
+footer a:hover{
+  color: #387ED1;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.company{
+  margin-left: 80px;
+}
+.support{
+  margin-left: 130px;
+}
+.footer_account{
+  margin-left: 100px;
+}
